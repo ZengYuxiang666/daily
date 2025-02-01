@@ -13,4 +13,5 @@ arr = []
 for x in range(1,n+1):
   if 2*Next[x] <= x:
     arr.append(Next[x])
+print(Next)
 print(max(arr))

@@ -1,7 +1,4 @@
-import bisect
-arr = [1,2,3,4,5,6,7]
-arr = set(arr)
-print(arr)
-c = set()
-c.add(2)
-print(c in arr)
+n = 5
+record = [set() for i in range(n)]
+record[4].add(5)
+print(record)
