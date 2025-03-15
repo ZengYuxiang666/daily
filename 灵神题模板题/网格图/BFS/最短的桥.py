@@ -32,7 +32,7 @@ class Solution(object):
         steps = 0
 
         while queue:
-            for _ in range(len(queue)):
+            for _ in range(len(queue)):  # bfs关键
                 x, y = queue.popleft()
                 for dx, dy in directions:
                     nx, ny = x + dx, y + dy

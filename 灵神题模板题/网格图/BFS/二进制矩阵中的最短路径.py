@@ -1,8 +1,6 @@
 # 对访问过的点用集合储存可以避免潜在错误
 # https://leetcode.cn/problems/shortest-path-in-binary-matrix
 from collections import deque
-
-
 class Solution(object):
     def shortestPathBinaryMatrix(self, grid):
         n = len(grid)
